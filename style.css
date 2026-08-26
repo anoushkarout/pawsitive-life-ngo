@@ -1,0 +1,171 @@
+root {
+    --bg-cream: #FFFDF6;
+    --bg-contact: #EBF7F7;
+    --text-teal: #0D5C75;
+    --text-body: #555555;
+    --accent-orange: #F2994A;
+    --card-bg: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--bg-cream);
+    color: var(--text-body);
+    text-align: center;
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: var(--bg-cream);
+}
+
+.logo-text {
+    font-weight: 700;
+    color: var(--text-teal);
+    font-size: 1.2rem;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+    color: var(--text-teal);
+}
+
+/* Hero Section */
+.hero {
+    padding: 20px 20px 40px;
+}
+
+.hero h1 {
+    color: var(--text-teal);
+    font-size: 2rem;
+    line-weight: 1.2;
+}
+
+.hero-cursive {
+    font-family: 'Caveat', cursive;
+    color: var(--accent-orange);
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.hero-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--text-teal);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.hero-image-wrapper img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+}
+
+.light-bg {
+    background-color: var(--bg-cream);
+}
+
+.dark-bg {
+    background-color: var(--text-teal);
+    color: white;
+}
+
+.contact-bg {
+    background-color: var(--bg-contact);
+}
+
+.section-title {
+    color: var(--text-teal);
+    font-size: 1.8rem;
+}
+
+.underline {
+    width: 50px;
+    height: 4px;
+    background-color: var(--accent-orange);
+    margin: 8px auto 25px;
+    border-radius: 2px;
+}
+
+.underline.light {
+    background-color: var(--accent-orange);
+}
+
+/* Cards */
+.card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+.card h3 {
+    color: var(--text-teal);
+    margin: 10px 0 5px;
+}
+
+.card .icon {
+    font-size: 2rem;
+}
+
+.avatar-bg {
+    width: 60px;
+    height: 60px;
+    background-color: #E2F2F4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.text-content h3 {
+    color: var(--text-teal);
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.highlight-text {
+    color: #E05263;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background-color: var(--text-teal);
+    color: white;
+    padding: 20px;
+    font-size: 0.85rem;
+}
